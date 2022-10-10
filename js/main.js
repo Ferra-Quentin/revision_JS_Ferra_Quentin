@@ -176,6 +176,8 @@ let th1text = document.createTextNode("Firefox")
 let td1text = document.createTextNode("Mozilla")
 let td2text = document.createTextNode("27,8%")
 
+th1.scope="row"
+
 th1.appendChild(th1text)
 td1.appendChild(td1text)
 td2.appendChild(td2text)
